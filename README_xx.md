@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Extended Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
@@ -116,3 +117,7 @@ and how to install it.
 
 Regardless of the IDE used, every submitted project must
 still be compilable with cmake and make.
+=======
+# Extended-Kalman-Filter
+An extended kalman filter used for tracking a car in the Udacity open source simulator
+>>>>>>> 9caa515bd52ebadc1ee090064a61bf7d2bfb1d06
