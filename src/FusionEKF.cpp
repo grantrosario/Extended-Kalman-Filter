@@ -168,8 +168,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     
     ekf_.R_ = R_radar_;
     
-    // Call update function using new measurements
-    if(USE_RADAR)
+    // Call update function using new measurements as long as Jacobian is not 0
+    if(USE_RADAR && !ekf_.H_.isZero())
     {
       ekf_.UpdateEKF(measurement_pack.raw_measurements_);
     }
