@@ -89,12 +89,12 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Cont
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.9/Modules/Platform/Darwin-Initialize.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.9/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Applications/CMake.app/Contents/share/cmake-3.9/Modules/Platform/UnixPaths.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeSystem.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/feature_tests.c))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/feature_tests.cxx))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/3.9.0-rc5/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/feature_tests.c))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/feature_tests.cxx))
 
-/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -H/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project -B/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode
+/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -H/Users/grantrosario/Desktop/Extended-Kalman-Filter -B/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode

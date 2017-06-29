@@ -8,23 +8,23 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.ExtendedKF.Debug:
-/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Debug/ExtendedKF:
-	/bin/rm -f /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Debug/ExtendedKF
+/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/Debug/ExtendedKF:
+	/bin/rm -f /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/Debug/ExtendedKF
 
 
 PostBuild.ExtendedKF.Release:
-/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Release/ExtendedKF:
-	/bin/rm -f /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Release/ExtendedKF
+/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/Release/ExtendedKF:
+	/bin/rm -f /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/Release/ExtendedKF
 
 
 PostBuild.ExtendedKF.MinSizeRel:
-/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/MinSizeRel/ExtendedKF:
-	/bin/rm -f /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/MinSizeRel/ExtendedKF
+/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/MinSizeRel/ExtendedKF:
+	/bin/rm -f /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/MinSizeRel/ExtendedKF
 
 
 PostBuild.ExtendedKF.RelWithDebInfo:
-/Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/RelWithDebInfo/ExtendedKF:
-	/bin/rm -f /Users/grantrosario/Desktop/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/RelWithDebInfo/ExtendedKF
+/Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/RelWithDebInfo/ExtendedKF:
+	/bin/rm -f /Users/grantrosario/Desktop/Extended-Kalman-Filter/ide_profiles/xcode/RelWithDebInfo/ExtendedKF
 
 
 
